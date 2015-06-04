@@ -1,0 +1,10 @@
+[package]
+name = "keymaster"
+description = "Keymaster is a 128-bit k-ordered id generator. It requires no coordination to generate unique ids."
+version = "0.1.0"
+authors = ["Steve Jenson <stevej@fruitless.org>"]
+
+[dependencies]
+time = "0.1.26"
+iron = "*"
+
